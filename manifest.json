@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "YTM Playlist Search",
+  "version": "1.0",
+  "description": "Search through all songs in a YouTube Music playlist instantly, without scrolling.",
+  "icons": {
+    "16": "icon128.png",
+    "48": "icon128.png",
+    "128": "icon128.png"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["*://music.youtube.com/*"],
+  "web_accessible_resources": [
+    {
+      "resources": ["icon128.png"],
+      "matches": ["*://music.youtube.com/*"]
+    }
+  ],
+  "content_scripts": [{
+    "matches": ["*://music.youtube.com/*"],
+    "js": ["content.js"],
+    "css": ["style.css"],
+    "run_at": "document_idle"
+  }],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "YTM Playlist Search Settings",
+    "default_icon": "icon128.png"
+  }
+}
