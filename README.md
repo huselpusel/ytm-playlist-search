@@ -28,5 +28,7 @@ A lightweight, local-only Chrome extension that allows you to instantly search t
 4. Enable **Developer mode** (top right corner).
 5. Click **Load unpacked** and select the extracted folder.
 
+<img width="382" height="115" alt="Installed Extension" src="https://github.com/user-attachments/assets/871d80c2-60aa-459c-b566-3560471e9f57" />
+
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
