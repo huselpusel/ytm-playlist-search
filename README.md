@@ -6,7 +6,7 @@
 A lightweight, local-only Chrome extension that allows you to instantly search through all songs in a YouTube Music playlist without endlessly scrolling.
 
 <p align="center">
-  <img src="Playlist%20Search.jpg" width="800">
+  <img width="1277" height="696" alt="Playlist Search" src="https://github.com/user-attachments/assets/6ac47624-da80-4af8-a415-48447dcf7bf1" />
   <br>
   <em>How the extension looks on YouTube Music with the search panel open.</em>
 </p>
